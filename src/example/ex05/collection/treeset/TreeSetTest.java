@@ -1,6 +1,5 @@
 package example.ex05.collection.treeset;
 
-import java.awt.*;
 import java.util.TreeSet;
 
 public class TreeSetTest {

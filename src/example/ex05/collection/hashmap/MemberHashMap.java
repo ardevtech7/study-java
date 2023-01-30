@@ -1,7 +1,6 @@
 package example.ex05.collection.hashmap;
 
 import example.ex05.collection.Member;
-import example.ex05.collection.hashset.MemberHashSet;
 
 import java.util.HashMap;
 import java.util.Iterator;

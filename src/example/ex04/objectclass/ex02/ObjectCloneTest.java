@@ -1,8 +1,5 @@
 package example.ex04.objectclass.ex02;
 
-import example.ex04.objectclass.ex02.Circle;
-import example.ex04.objectclass.ex02.Point;
-
 public class ObjectCloneTest {
     public static void main(String[] args) throws CloneNotSupportedException {
         Point point = new Point(10,20);
