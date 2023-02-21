@@ -18,10 +18,8 @@ public class ArrayTest {
         List<String> strList = Arrays.asList(str);
         System.out.println(strList);
 
-        List list1 = Arrays.asList(new Integer[] {1,2,3,4,5});
-        List list2 = Arrays.asList(1,2,3,4,5);
+        List<Integer> list1 = Arrays.asList(1,2,3,4,5);
         System.out.println(list1);
-        System.out.println(list2);
 
     }
 }

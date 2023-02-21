@@ -20,9 +20,11 @@ public class MemberTreeSet {
     // 회원 삭제
     public boolean removeMember(int memberId) {
         Iterator<Member> ir = treeSet.iterator();
+
         while (ir.hasNext()) {
             Member member = ir.next();
             int tempId = member.getMemberId();
+
             if (tempId == memberId) {
                 treeSet.remove(member);
                 return true;
