@@ -1,4 +1,4 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex02;
 
 @FunctionalInterface
 public interface MyFunction2 {

@@ -1,4 +1,4 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex02;
 
 public class MyFunctionTest2 {
     public static void main(String[] args) {

@@ -2,8 +2,8 @@ package example.ex04.objectclass.ex01;
 
 public class StringTest1 {
     public static void main(String[] args) {
-        String s1 = new String("test");
-        String s2 = new String("test");
+        String s1 = new String("SimpleTest");
+        String s2 = new String("SimpleTest");
 
         System.out.println(s1 == s2); // 인스턴스가 매번 새로 생성되므로 주소 값이 다르다.
         System.out.println(s1.equals(s2)); // 문자열 값이 같으므로 true 반환

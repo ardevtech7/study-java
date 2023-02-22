@@ -1,8 +1,8 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex05;
 
 public class TestLambda {
     public static void main(String[] args) {
-        PrintString lambdaStr = s -> System.out.println(s);
+        PrintString lambdaStr = System.out::println;
         lambdaStr.showString("hello");
 
         showMyString(lambdaStr);

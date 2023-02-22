@@ -1,4 +1,4 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex01;
 
 // 함수형 인터페이스
 @FunctionalInterface

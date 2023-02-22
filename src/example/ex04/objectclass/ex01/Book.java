@@ -22,7 +22,7 @@ public class Book {
         System.out.println(book);
         System.out.println(book.toString());
 
-        String str = new String("test");
+        String str = new String("SimpleTest");
         System.out.println(str);
 
         Integer test = new Integer(100);

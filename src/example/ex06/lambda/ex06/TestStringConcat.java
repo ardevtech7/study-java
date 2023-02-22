@@ -1,4 +1,4 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex06;
 
 public class TestStringConcat {
     public static void main(String[] args) {

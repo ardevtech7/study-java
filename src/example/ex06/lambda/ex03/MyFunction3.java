@@ -1,4 +1,4 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex03;
 
 @FunctionalInterface
 // 제네릭 타입 T를 가진 함수형 인터페이스

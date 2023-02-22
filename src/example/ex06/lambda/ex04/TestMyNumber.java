@@ -1,8 +1,8 @@
-package example.ex06.lambda;
+package example.ex06.lambda.ex04;
 
 public class TestMyNumber {
     public static void main(String[] args) {
-        MyNumber max = (x,y) -> (x >= y) ? x : y;
+        MyNumber max = Math::max;
         System.out.println(max.getMax(10,20));
     }
 }
