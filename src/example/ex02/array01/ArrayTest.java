@@ -21,5 +21,11 @@ public class ArrayTest {
         List<Integer> list1 = Arrays.asList(1,2,3,4,5);
         System.out.println(list1);
 
+        String board = "번호,제목,내용,이름";
+        String[] arr = board.split(",");
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
 }
