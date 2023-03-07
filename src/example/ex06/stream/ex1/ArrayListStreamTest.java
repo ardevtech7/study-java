@@ -1,4 +1,4 @@
-package example.ex06.stream;
+package example.ex06.stream.ex1;
 
 import java.util.ArrayList;
 import java.util.List;
