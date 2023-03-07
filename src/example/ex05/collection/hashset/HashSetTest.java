@@ -5,12 +5,11 @@ import java.util.*;
 public class HashSetTest {
     public static void main(String[] args) {
         HashSet<String> hashSet = new HashSet<>();
-        hashSet.add(new String("A"));
-        hashSet.add(new String("B"));
-        hashSet.add(new String("A"));
+        hashSet.add("A");
+        hashSet.add("B");
+        hashSet.add("A");
         System.out.println(hashSet);
 
-        //
         Object[] objects = {"1", new Integer(1), "2", "3"};
 
         Set set = new HashSet();

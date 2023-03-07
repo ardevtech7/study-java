@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Queue -> FIFO
  */
-public class Myqueue {
+public class MyQueue {
     private ArrayList<String> arrayQueue = new ArrayList<>();
 
     public void enQueue(String data) {
