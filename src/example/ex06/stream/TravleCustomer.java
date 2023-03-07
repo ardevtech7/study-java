@@ -26,7 +26,7 @@ public class TravleCustomer {
     @Override
     public String toString() {
         return "TravleCustomer{" +
-                "name='" + name + '\'' +
+                "number='" + name + '\'' +
                 ", age=" + age +
                 ", price=" + price +
                 '}';

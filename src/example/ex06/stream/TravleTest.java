@@ -15,14 +15,14 @@ public class TravleTest {
 //        customerList.add(travleCustomer3);
 //
 //        System.out.println("=== 고객 명단 출력 ===");
-//        customerList.stream().map(c -> c.getName()).forEach(s -> System.out.println(s));
+//        customerList.stream().map(c -> c.getNumber()).forEach(s -> System.out.println(s));
 //
 //        int total = customerList.stream().mapToInt(c -> c.getPrice()).sum();
 //        System.out.println("총 여행 비용: " + total);
 //
 //        System.out.println("== 20세 이상 고객 명단 정렬 ===");
 //        customerList.stream().filter(c -> c.getAge() >= 20)
-//                .map(c -> c.getName()).sorted().forEach(s -> System.out.println(s));
+//                .map(c -> c.getNumber()).sorted().forEach(s -> System.out.println(s));
 
         // Refactoring
         List<TravleCustomer> customerList1 = Arrays.asList(
