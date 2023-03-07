@@ -1,7 +1,7 @@
 package example.ex03.interfaceex.ex05;
 
 /**
- * 큐 = 처음 들어간 자료부터 꺼내 쓰는 것
+ * 큐 = 처음 들어간 자료부터 꺼내 쓰는 것, FIFO
  * 먼저 들어 온 자료를 꺼내는 기능
  */
 public interface Queue {

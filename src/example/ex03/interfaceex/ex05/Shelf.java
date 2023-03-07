@@ -8,7 +8,7 @@ public class Shelf {
 
     // 디폴트 생성자로 Shelf 클래스를 생성하면 ArrayList 도 생성됨
     public Shelf() {
-        shelf = new ArrayList<String>();
+        shelf = new ArrayList<>();
     }
 
     public ArrayList<String> getShelf() {
