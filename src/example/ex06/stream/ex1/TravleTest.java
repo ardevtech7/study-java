@@ -31,14 +31,20 @@ public class TravleTest {
                 new TravleCustomer("홍길동", 30, 100)
         );
         System.out.println("===== 고객 명단 출력 =====");
-        customerList1.stream().map(TravleCustomer::getName).forEach(System.out::println);
+        customerList1.stream()
+                .map(TravleCustomer::getName)
+                .forEach(System.out::println);
 
-        int total = customerList1.stream().mapToInt(TravleCustomer::getPrice).sum();
+        int total = customerList1.stream()
+                .mapToInt(TravleCustomer::getPrice).sum();
         System.out.println("총 여행 비용: " + total);
 
         System.out.println("===== 20세 이상 고객 명단 출력=====");
-        customerList1.stream().filter(c -> c.getAge() >= 20)
-                .map(TravleCustomer::getName).sorted().forEach(System.out::println);
+        customerList1.stream()
+                .filter(c -> c.getAge() >= 20)
+                .map(TravleCustomer::getName)
+                .sorted()
+                .forEach(System.out::println);
 
     }
 }
