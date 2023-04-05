@@ -1,8 +1,8 @@
 package tijava.ch05;
 
-public class EqualsEx {
+public class StringEqualsEx {
     public static void main(String[] args) {
-        // String - 1) 동일한 문자 리터럴이면, 동일한 객체번지 공유
+        // String - 1) 동일한 문자 리터럴이면, 동일한 객체 번지 공유
         // strVal1 변수가 참조하고 있는 String 객체 문자열은 "홍길동"
         String strVal1 = "홍길동";
         String strVal2 = "홍길동";
