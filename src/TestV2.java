@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class TestV2 {
     public static void main(String[] args) {
         Integer a = new Integer(5);
@@ -9,5 +11,8 @@ public class TestV2 {
         String str = Integer.toString(value);
         System.out.println(str);
 
+        HashMap<String, String> hash = new HashMap<>();
+        hash.put("test","Error");
+        System.out.println(hash.get("test"));
     }
 }

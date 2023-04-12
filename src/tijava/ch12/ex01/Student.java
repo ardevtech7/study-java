@@ -27,7 +27,7 @@ public class Student {
         return hashCode;
     }
 
-    // Object 의 equals() 재정의해서 Student 객체인지 확인, 학생 번호와 이름이 같으면 true 리턴
+    // Object 의 equals() 재정의해서 StudentForMe 객체인지 확인, 학생 번호와 이름이 같으면 true 리턴
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof Student target) {

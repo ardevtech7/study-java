@@ -17,7 +17,7 @@ public class StudentTest {
 //        s1.serialNum++;
 //        System.out.println(s1.serialNum);
 //
-//        Student s2 = new Student("b");
+//        StudentForMe s2 = new StudentForMe("b");
 //        System.out.println(s2.serialNum);
 
         System.out.println(s1.studentID);
