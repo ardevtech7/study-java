@@ -1,8 +1,5 @@
 package doit.ch07.upgrageArray;
 
-import doit.ch07.upgrageArray.StudentForMe;
-import doit.ch07.upgrageArray.Subject;
-
 import java.util.ArrayList;
 
 public class StudentTestForMe {
