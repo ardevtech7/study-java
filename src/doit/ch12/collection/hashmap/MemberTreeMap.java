@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.TreeMap;
 
 public class MemberTreeMap {
-    // key 값에 쓰인 Integer 클래스는 equals(), hashCode() 메서드가 이미 재정의
+    // key 값에 쓰인 Inte+ger 클래스는 equals(), hashCode() 메서드가 이미 재정의
     // Integer 클래스에 정렬 인터페이스 이미 구현되어 있음
     private TreeMap<Integer, Member> treeMap;
 

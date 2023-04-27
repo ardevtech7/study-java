@@ -22,5 +22,9 @@ public class MemberArrayListTest {
         Member member5 = new Member(4, "박길동");
         memberArrayList.insertMember(member5, 1);
         memberArrayList.showAllMember();
+
+        Member[] members = new Member[10];
+        members[0] = new Member(1, "홍길동");
+        System.out.println(members[0]);
     }
 }

@@ -1,11 +1,11 @@
-package example.ex06.stream.ex1;
+package doit.ch13.stream;
 
-public class TravleCustomer {
+public class TravelCustomer {
     private String name;
     private int age;
     private int price;
 
-    public TravleCustomer(String name, int age, int price) {
+    public TravelCustomer(String name, int age, int price) {
         this.name = name;
         this.age = age;
         this.price = price;
@@ -25,10 +25,6 @@ public class TravleCustomer {
 
     @Override
     public String toString() {
-        return "TravelCustomer{" +
-                "number='" + name + '\'' +
-                ", age=" + age +
-                ", price=" + price +
-                '}';
+        return "name : " + name + "age : " + age + "price : " + price;
     }
 }
