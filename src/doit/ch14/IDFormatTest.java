@@ -1,4 +1,4 @@
-package doit.ex14;
+package doit.ch14;
 
 public class IDFormatTest {
     private String userId;
