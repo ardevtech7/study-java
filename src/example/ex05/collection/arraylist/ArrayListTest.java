@@ -36,8 +36,8 @@ public class ArrayListTest {
     }
 
     static void print(ArrayList list1, ArrayList list2) {
-        System.out.println("list 1: " + list1);
-        System.out.println("list 2: " + list2);
+        System.out.println("ArrayListEx 1: " + list1);
+        System.out.println("ArrayListEx 2: " + list2);
         System.out.println();
     }
 }
